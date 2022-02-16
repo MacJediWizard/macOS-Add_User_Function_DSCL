@@ -17,26 +17,14 @@ The steps are as follows:
 *	Use DSCL to set the UniqueID for User
 *	Use DSCL to set the Password for the User
 *	Complete the process and create the Home Directory
-<<<<<<< HEAD
-
-
-
-=======
 #
->>>>>>> 96d099300486c511e653c87e3d5ce41ec09c219a
 In the script there is Logging built in. You can use the defaults or set the log file in variables. 
 The default location is: /Library/Logs/User_Creation_Logs/User_Creation_Log_${logFileDate}.log
 
 If you want to set the LogFile path and name enter the info inder Logging Information
 myLogFilePath=""	# Path to log file. Recommended /Library/Logs/<Company Name>
 myLogFileName=""	# Name of Actual Log File. <YourLogFileName.log>
-<<<<<<< HEAD
-
-
-
-=======
 #
->>>>>>> 96d099300486c511e653c87e3d5ce41ec09c219a
 This script can take the following Variables in the command path.
 exampleScript.sh "myUserName" "myPassword" "myRealName" "isLocalAdmin" "myDefaultShell" "myPrimaryGroup"
 
@@ -48,8 +36,7 @@ Variable Description:
 * myDefaultShell="${5}"	# Default is zsh if empty
 * myPrimaryGroup="${6}"	# Default Group is 20 for staff group if empty
 
-<<<<<<< HEAD
 You could also use this with JAMF by adjusting the Variables either to $4 $5 $6 etc or programactally entering the variables. I use this code with JAMF to   create USer accounts on during the Enrollment process
-=======
+
 You could also use this with JAMF by adjusting the Variables either to $4 $5 $6 etc or programactally entering the variables. I use this code with JAMF to   create USer accounts on during the Enrollment process
->>>>>>> 96d099300486c511e653c87e3d5ce41ec09c219a
+
