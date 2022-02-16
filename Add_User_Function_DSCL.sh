@@ -199,7 +199,7 @@ function readCommandOutputToLog(){
 	
 	# Creating NFSHomeDirectory
 	echo "Creating NFSHomeDirectory for User:${myUserName}"
-	dscl . -create /Users/${myUserName} NFSHomeDirectory /Local/Users/${myUserName}
+	dscl . -create /Users/${myUserName} NFSHomeDirectory /Users/${myUserName}
 	
 	
 	# Checking Group Membership
