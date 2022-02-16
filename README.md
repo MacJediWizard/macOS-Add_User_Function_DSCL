@@ -1,7 +1,7 @@
-# Add_User_Function_DSCL
+<h1><b>Add_User_Function_DSCL</b></h1>
 
-<b>This script and function was built to properly create a user account on mscOS
-with no errors or issues, down to the picture.</b>
+<h2><b>This script and function was built to properly create a user account on mscOS
+  with no errors or issues, down to the picture.</b></h2>
 
 The steps are as follows:
 
@@ -17,14 +17,20 @@ The steps are as follows:
 *	Use DSCL to set the UniqueID for User
 *	Use DSCL to set the Password for the User
 *	Complete the process and create the Home Directory
-#
+
+<hr>
+<h2><b>Logging</b></h2>
+
 In the script there is Logging built in. You can use the defaults or set the log file in variables. 
 The default location is: /Library/Logs/User_Creation_Logs/User_Creation_Log_${logFileDate}.log
 
-If you want to set the LogFile path and name enter the info inder Logging Information
-myLogFilePath=""	# Path to log file. Recommended /Library/Logs/<Company Name>
-myLogFileName=""	# Name of Actual Log File. <YourLogFileName.log>
-#
+If you want to set the LogFile path and name enter the info under: Logging Information
+myLogFilePath=""	# Path to log file. Recommended /Library/Logs/[Company Name]
+myLogFileName=""	# Name of Actual Log File. [YourLogFileName.log]
+
+<hr>
+<h2><b>Variables</b></h2>
+
 This script can take the following Variables in the command path.
 exampleScript.sh "myUserName" "myPassword" "myRealName" "isLocalAdmin" "myDefaultShell" "myPrimaryGroup"
 
@@ -36,7 +42,4 @@ Variable Description:
 * myDefaultShell="${5}"	# Default is zsh if empty
 * myPrimaryGroup="${6}"	# Default Group is 20 for staff group if empty
 
-You could also use this with JAMF by adjusting the Variables either to $4 $5 $6 etc or programactally entering the variables. I use this code with JAMF to   create USer accounts on during the Enrollment process
-
-You could also use this with JAMF by adjusting the Variables either to $4 $5 $6 etc or programactally entering the variables. I use this code with JAMF to   create USer accounts on during the Enrollment process
-
+You could also use this with JAMF by adjusting the Variables either to $4 $5 $6 etc or programmatically entering the variables. I use this code with JAMF to   create User accounts on during the Enrollment process
