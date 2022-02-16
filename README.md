@@ -1,7 +1,7 @@
 # Add_User_Function_DSCL
 
-This script and function was built to properly create a user account on mscOS
-with no errors or issues, down to the picture.
+<b>This script and function was built to properly create a user account on mscOS
+with no errors or issues, down to the picture.</b>
 
 The steps are as follows:
 
