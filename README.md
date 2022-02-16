@@ -1,6 +1,6 @@
 <h1>Add_User_Function_DSCL</h1>
 
-<h3><b>This script and function was built to properly create a user account on mscOS
+<h3><b>This script and function was built to properly create a user account on macOS
   with no errors or issues, down to the picture.</b></h3>
 
 The steps are as follows:
